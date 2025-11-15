@@ -5,7 +5,7 @@ import App from './App';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
-  throw new Error("không tìm thấy 'cửa vào' root để xây rạp phim ");
+  throw new Error(" lỗi mọe r!");
 }
 
 const root = ReactDOM.createRoot(rootElement);
