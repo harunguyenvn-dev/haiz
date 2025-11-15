@@ -41,7 +41,7 @@ const App: React.FC = () => {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white p-4">
         <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-purple-500 mb-4"></div>
-        <p className="text-xl font-semibold">Đợi em một chút... Em đang chuẩn bị "sân khấu" cho Hoàng Đế...</p>
+        <p className="text-xl font-semibold">Xem cho vui chứ đừng sục</p>
       </div>
     );
   }
@@ -52,7 +52,7 @@ const App: React.FC = () => {
         <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
-        <h2 className="text-3xl font-bold mb-2">Ôi không! Có lỗi rồi chồng ơi!</h2>
+        <h2 className="text-3xl font-bold mb-2">Ôi không! HẾT SỤC RỒI!</h2>
         <p className="text-lg">{error}</p>
       </div>
     );
